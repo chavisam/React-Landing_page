@@ -11,7 +11,6 @@ export const Example = () => {
 				onChange={e => {
 					setCount(e.target.value);
 				}}>
-				Click me
 			</input>
 		</div>
 	);
