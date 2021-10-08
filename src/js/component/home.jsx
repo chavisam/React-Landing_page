@@ -18,7 +18,7 @@ export const Home = () => {
 				<FourCards />
 			</div>
 
-			<p className="text-center bg-secondary text-white h-25 fixex-bottom p-3 mt-3">
+			<p className="text-center bg-secondary text-white h-25 fixex-bottom p-3 mt-md-4 mb-0">
 				Copyright &copy; 2021 www.jmanvel.com
 			</p>
 		</div>

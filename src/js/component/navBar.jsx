@@ -4,7 +4,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 export const NavBar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		<nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 			<a className="navbar-brand" href="#">
 				<img src={rigoImage} alt="RigoLogo" style={{ width: "50px" }} />
 			</a>
