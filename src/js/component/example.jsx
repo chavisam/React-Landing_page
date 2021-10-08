@@ -2,16 +2,15 @@ import React, { useState } from "react";
 
 export const Example = () => {
 	// Declara una nueva variable de estado, la cual llamaremos “count”
-	const [count, setCount] = useState("");
+	const [title, setTitle] = useState("");
 
 	return (
 		<div>
-			<p>You clicked {count} times</p>
+			<h1>{title}</h1>
 			<input
 				onChange={e => {
-					setCount(e.target.value);
-				}}>
-			</input>
+					setTitle(e.target.value);
+				}}></input>
 		</div>
 	);
 };

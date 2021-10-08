@@ -1,13 +1,13 @@
 import React from "react";
 import { Jumbo } from "./jumbo.jsx";
 import { NavBar } from "./navBar.jsx";
-import { Example } from "./prueba.jsx";
+import { Example } from "./example.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Home = () => {
+export const Home = () => {
 	return (
 		<div className="container-fluid">
 			<NavBar />
@@ -31,5 +31,3 @@ const Home = () => {
 		</div>
 	);
 };
-
-export default Home;
