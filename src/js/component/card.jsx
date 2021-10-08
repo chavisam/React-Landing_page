@@ -4,7 +4,7 @@ import { rigoImage } from "../../img/rigo-baby.jpg";
 
 export const Card = () => {
 	return (
-		<div className="card">
+		<div className="card text-center mb-md-0 mb-4">
 			<a className="navbar-brand" href="#">
 				<img
 					src="/rigo-baby.jpg"
