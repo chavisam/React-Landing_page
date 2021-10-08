@@ -1,6 +1,7 @@
 import React from "react";
 import { Jumbo } from "./jumbo.jsx";
 import { NavBar } from "./navBar.jsx";
+import { Example } from "./prueba.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -26,6 +27,7 @@ const Home = () => {
 				</p>
 				<Jumbo />
 			</div>
+			<Example />
 		</div>
 	);
 };
